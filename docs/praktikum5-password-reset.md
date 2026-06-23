@@ -76,7 +76,15 @@ Expected rejection: Token tidak dimiliki user ini
 
 ### Analisis
 
-Token reset password terikat pada pengguna tertentu sehingga tidak dapat digunakan untuk akun lain.
+## Analisis Praktikum 5
+
+Pada implementasi insecure ditemukan beberapa kelemahan keamanan. Token reset password disimpan dalam bentuk plaintext dan dicetak ke log sehingga berpotensi bocor kepada pihak yang memiliki akses terhadap sistem. Selain itu token tidak memiliki masa berlaku dan dapat digunakan berulang kali.
+
+Hasil pengujian menunjukkan bahwa token yang sama masih dapat digunakan untuk mengganti password lebih dari satu kali. Kondisi ini memungkinkan penyerang mengambil alih akun apabila token berhasil diperoleh.
+
+Pada implementasi secure dilakukan beberapa perbaikan, yaitu penggunaan secure random token, penyimpanan hash token, penerapan masa berlaku token, mekanisme read-once token, serta user binding. Hasil pengujian menunjukkan bahwa token yang sudah digunakan akan ditolak dan token milik pengguna lain tidak dapat digunakan untuk mengakses akun yang berbeda.
+
+Berdasarkan hasil praktikum dapat disimpulkan bahwa token reset password tidak boleh diperlakukan sebagai string biasa. Token harus memiliki lifecycle, ownership, expiry, dan aturan penggunaan yang jelas agar tidak dapat disalahgunakan.
 
 ## Kesimpulan
 
