@@ -24,7 +24,6 @@ Repository ini berisi dokumentasi hasil praktikum mata kuliah Pengkodean Aman.
 - Audit Trail
 
 📄 Dokumentasi:
-### Minggu 7
 - [01. Boolean Explosion](docs/praktikum7/01-boolean-explosion.md)
 - [02. Order State Machine](docs/praktikum7/02-order-state-machine.md)
 - [03. Voucher Race Condition](docs/praktikum7/03-voucher-race-condition.md)
