@@ -24,7 +24,14 @@ Repository ini berisi dokumentasi hasil praktikum mata kuliah Pengkodean Aman.
 - Audit Trail
 
 📄 Dokumentasi:
-[Praktikum 7](docs/praktikum7-state-management.md)
+### Minggu 7
+- [01. Boolean Explosion](docs/praktikum7/01-boolean-explosion.md)
+- [02. Order State Machine](docs/praktikum7/02-order-state-machine.md)
+- [03. Voucher Race Condition](docs/praktikum7/03-voucher-race-condition.md)
+- [04. Voucher Atomic State](docs/praktikum7/04-voucher-atomic-state.md)
+- [05. Idempotency Key](docs/praktikum7/05-idempotency-key.md)
+- [06. Snapshot Audit Trail](docs/praktikum7/06-snapshot-audit-trail.md)
+- [07. Wallet Transfer](docs/praktikum7/07-wallet-transfer.md)
 
 ---
 
