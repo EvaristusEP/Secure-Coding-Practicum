@@ -48,6 +48,36 @@ Masalah yang ditemukan:
 
 ---
 
+## Test Token Reuse
+
+![Token Reuse Test](../screenshots/p5/token-reuse-test.png)
+
+### Hasil Pengujian
+
+Output:
+
+Expected rejection: Token tidak valid
+
+### Analisis
+
+Token yang sudah digunakan tidak dapat digunakan kembali sehingga mencegah replay attack.
+
+---
+
+## Test Wrong User Binding
+
+![Wrong User Binding Test](../screenshots/p5/wrong-user-binding-test.png)
+
+### Hasil Pengujian
+
+Output:
+
+Expected rejection: Token tidak dimiliki user ini
+
+### Analisis
+
+Token reset password terikat pada pengguna tertentu sehingga tidak dapat digunakan untuk akun lain.
+
 ## Kesimpulan
 
 Token reset password tidak boleh diperlakukan sebagai string biasa. Token harus memiliki lifecycle, ownership, dan aturan penggunaan yang jelas.
