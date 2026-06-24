@@ -15,33 +15,40 @@ Beberapa masalah yang ditemukan:
 - Session tidak terikat dengan kepemilikan user.
 - Potensi brute force attack.
 
-### Screenshot Kode Awal
+## Kode Awal
 
 ![Insecure Authentication](../../screenshots/sbd/modul1/insecure-auth.png)
 
 ---
 
-## Perbaikan yang Dilakukan
+## Risiko Keamanan
 
-### LoginAttempt Model
+Jika tidak ada mekanisme pembatasan login:
 
-Mencatat:
-- User
-- IP Address
-- Waktu login
-- Status berhasil/gagal
-
-### Screenshot LoginAttempt
-
-![Login Attempt Model](../../screenshots/sbd/modul1/login-attempt-model.png)
+- Attacker dapat mencoba password berulang kali.
+- Akun lebih mudah diambil alih.
+- Sulit melakukan audit aktivitas login.
 
 ---
 
-### Session Ownership & Lockout
+## LoginAttempt
 
-### Screenshot Implementasi Secure
+![LoginAttempt](../../screenshots/sbd/modul1/login-attempt-model.png)
+
+LoginAttempt digunakan untuk mencatat aktivitas autentikasi seperti user, alamat IP, waktu login, dan status berhasil atau gagal.
+
+---
+
+## Session Ownership & Lockout
 
 ![Secure Authentication](../../screenshots/sbd/modul1/secure-auth.png)
+
+Perbaikan dilakukan dengan:
+
+- Menambahkan lockout mechanism.
+- Membatasi percobaan login.
+- Mengikat session kepada user yang melakukan autentikasi.
+- Mencatat aktivitas login untuk kebutuhan audit.
 
 ---
 
