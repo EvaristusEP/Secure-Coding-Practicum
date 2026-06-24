@@ -10,20 +10,14 @@ Menganalisis kelemahan desain autentikasi dan memperbaikinya menggunakan prinsip
 
 Beberapa masalah yang ditemukan:
 
-* Tidak ada pencatatan login gagal.
-* Tidak ada pembatasan percobaan login.
-* Session tidak terikat dengan kepemilikan user.
-* Potensi brute force attack.
+- Tidak ada pencatatan login gagal.
+- Tidak ada pembatasan percobaan login.
+- Session tidak terikat dengan kepemilikan user.
+- Potensi brute force attack.
 
----
+### Screenshot Kode Awal
 
-## Risiko Keamanan
-
-Jika tidak ada mekanisme pembatasan login:
-
-* Attacker dapat mencoba password berulang kali.
-* Akun lebih mudah diambil alih.
-* Sulit melakukan audit aktivitas login.
+![Insecure Authentication](../../screenshots/sbd/modul1/insecure-auth.png)
 
 ---
 
@@ -32,25 +26,22 @@ Jika tidak ada mekanisme pembatasan login:
 ### LoginAttempt Model
 
 Mencatat:
+- User
+- IP Address
+- Waktu login
+- Status berhasil/gagal
 
-* User
-* IP Address
-* Waktu login
-* Status berhasil/gagal
+### Screenshot LoginAttempt
 
-### Lockout Mechanism
-
-Akun dikunci sementara setelah beberapa kali gagal login.
-
-### Session Ownership
-
-Session harus selalu terikat dengan user yang melakukan login.
+![Login Attempt Model](../../screenshots/sbd/modul1/login-attempt-model.png)
 
 ---
 
-## Hasil
+### Session Ownership & Lockout
 
-Implementasi menghasilkan autentikasi yang lebih aman serta mengurangi risiko brute force dan session abuse.
+### Screenshot Implementasi Secure
+
+![Secure Authentication](../../screenshots/sbd/modul1/secure-auth.png)
 
 ---
 
