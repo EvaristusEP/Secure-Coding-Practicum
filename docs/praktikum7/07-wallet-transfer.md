@@ -1,4 +1,4 @@
-# 07. Wallet Transfer Challenge
+# 7G. Wallet Transfer Challenge
 
 ## Tujuan
 
