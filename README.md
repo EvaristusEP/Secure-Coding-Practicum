@@ -58,7 +58,12 @@ Repository ini berisi dokumentasi hasil praktikum mata kuliah Pengkodean Aman.
 * Stateless Session
 * Resilience Design
 
-📄 Dokumentasi: * [Praktikum 10–11](docs/praktikum10-resilience.md)
+📄 Dokumentasi:
+  - [01. Fail Open vs Fail Closed](docs/praktikum10-11/01-fail-open-vs-fail-closed.md)
+  - [02. Safe Error Handling](docs/praktikum10-11/02-safe-error-handling.md)
+  - [03. Retry Storm](docs/praktikum10-11/03-retry-storm.md)
+  - [04. Stateless Session Review](docs/praktikum10-11/04-stateless-session-review.md)
+  - [05. Resilience Design Review](docs/praktikum10-11/05-resilience-design-review.md)
 
 ---
 
