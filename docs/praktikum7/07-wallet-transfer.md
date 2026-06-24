@@ -10,7 +10,7 @@ Mengidentifikasi kelemahan desain pada proses transfer dana.
 
 ## Hasil Eksekusi
 
-![Failure Case](../../screenshots/p7/07/failure-case.png)
+![Failure Case](../../screenshots/p7/07/wallet-transfer-output.png)
 
 ## Masalah yang Ditemukan
 
