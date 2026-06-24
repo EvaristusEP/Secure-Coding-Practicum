@@ -1,4 +1,4 @@
-# 02. Secure State Machine
+# 7B. Secure State Machine
 
 ## Tujuan
 
