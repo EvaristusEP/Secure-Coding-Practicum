@@ -4,9 +4,7 @@ Repository ini berisi dokumentasi hasil praktikum mata kuliah Pengkodean Aman.
 
 ## Daftar Praktikum
 
-### Minggu 5
-
-* Password Reset Token Leak
+### Minggu 5: Password Reset Token Leak
 * Domain Primitive
 * User Binding
 * Expiry Invariant
@@ -35,7 +33,7 @@ Repository ini berisi dokumentasi hasil praktikum mata kuliah Pengkodean Aman.
 
 ---
 
-### Minggu 9
+### Minggu 9: Secure Software Delivery
 
 * Dependency Risk Analysis
 * Secret Leak Investigation & Remediation
@@ -50,7 +48,7 @@ Repository ini berisi dokumentasi hasil praktikum mata kuliah Pengkodean Aman.
 
 ---
 
-### Minggu 10–11
+### Minggu 10–11: Resilience & Cloud-Native Security (Laravel Edition)
 
 * Fail Open vs Fail Closed
 * Safe Error Handling
@@ -64,6 +62,21 @@ Repository ini berisi dokumentasi hasil praktikum mata kuliah Pengkodean Aman.
   - [03. Retry Storm](docs/praktikum10-11/03-retry-storm.md)
   - [04. Stateless Session Review](docs/praktikum10-11/04-stateless-session-review.md)
   - [05. Resilience Design Review](docs/praktikum10-11/05-resilience-design-review.md)
+
+---
+
+### Minggu 12-13: Security by Design Lab
+- Authentication & Login Security
+- Order & Refund System
+- E-Wallet System
+- Voucher & Promo System
+
+📄 Dokumentasi:
+  - [Modul 1. Authentication Security](docs/security-by-design/modul1-authentication.md)
+  - [Modul 2. Order & Refund System](docs/security-by-design/modul2-order-refund.md)
+  - [Modul 3. E-Wallet System](docs/security-by-design/modul3-ewallet.md)
+  - [Modul 4. Voucher & Promo System](docs/security-by-design/modul4-voucher.md)
+  - [Kesimpulan Lab](docs/security-by-design/kesimpulan-lab.md)
 
 ---
 
